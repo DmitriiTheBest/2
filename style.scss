@@ -79,17 +79,20 @@ body {
     align-items: flex-end;
     color: #FFFFFF;
     border-radius: 16px;
-    &__1 {
-        background-image: url(imgs/game_1.jpeg);
-    }
+    // padding-left: 32px;
+    // margin-bottom: 128px;
+}
+    
+.game_title__1 {
+    background-image: url(imgs/game_1.jpeg);
+}
 
-    &__2 {
-        background-image: url(imgs/game_2.jpeg);
-    }
+.game_title__2 {
+    background-image: url(imgs/game_2.jpeg);
+}
 
-    &__3 {
-        background-image: url(imgs/game_3.jpeg);
-    }
+.game_title__3 {
+    background-image: url(imgs/game_3.jpeg);
 }
 
 .seasons {
