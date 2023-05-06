@@ -4,6 +4,10 @@
         padding-right: 16px;
     }
 
+    .top {
+        height: 735px;
+    }
+    
     .title {
         font-style: normal;
         font-weight: 700;
@@ -48,6 +52,14 @@
         }
     }
 
+    .button_text:hover {
+        cursor: hand; // Работает в Chrome, FF, IE, O
+    }
+
+    .menu {
+        height: 1220px;
+    }
+
     .game_title {
         display: flex;
         gap: 32px;
@@ -59,7 +71,7 @@
         color: #FFFFFF;
         border-radius: 16px;
         flex-wrap: wrap;
-        align-content: space-around;
+        align-content: stretch;
     }
 
     .seasons_content {
