@@ -80,15 +80,12 @@ body {
   color: #FFFFFF;
   border-radius: 16px;
 }
-
 .game_title__1 {
   background-image: url(imgs/game_1.jpeg);
 }
-
 .game_title__2 {
   background-image: url(imgs/game_2.jpeg);
 }
-
 .game_title__3 {
   background-image: url(imgs/game_3.jpeg);
 }
@@ -133,9 +130,6 @@ body {
     padding-left: 16px;
     padding-right: 16px;
   }
-  .top {
-    height: 735px;
-  }
   .title {
     font-style: normal;
     font-weight: 700;
@@ -177,12 +171,6 @@ body {
     color: white;
     outline: none;
   }
-  .button_text:hover {
-    cursor: hand;
-  }
-  .menu {
-    height: 1220px;
-  }
   .game_title {
     display: flex;
     gap: 32px;
@@ -194,7 +182,7 @@ body {
     color: #FFFFFF;
     border-radius: 16px;
     flex-wrap: wrap;
-    align-content: stretch;
+    align-content: space-around;
   }
   .seasons_content {
     display: flex;
