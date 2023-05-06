@@ -52,6 +52,10 @@
         }
     }
 
+    .button_text:hover {
+        cursor: hand; // Работает в Chrome, FF, IE, O
+    }
+
     .menu {
         height: 1220px;
     }

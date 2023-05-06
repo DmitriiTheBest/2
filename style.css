@@ -177,6 +177,9 @@ body {
     color: white;
     outline: none;
   }
+  .button_text:hover {
+    cursor: hand;
+  }
   .menu {
     height: 1220px;
   }
