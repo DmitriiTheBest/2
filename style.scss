@@ -133,13 +133,12 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-
-.words_content {
-    gap: 135px;
-    display: flex;
-    flex-direction: row-reverse;
-    padding-top: 32px;
+    &_content {
+        gap: 135px;
+        display: flex;
+        flex-direction: row-reverse;
+        padding-top: 32px;
+    }
 }
 
 .words_text {
