@@ -106,8 +106,43 @@ body {
     }
 }
 
-
 .seasons_text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-bottom: 32px;
+}
+
+.play_button__text {
+    background: #9C0332;
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 234px;
+    height: 48px;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    outline: none; 
+}
+
+.words {
+    height: 800px;
+    background-image: url(imgs/bckrdwrdsgame.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.words_content {
+    gap: 135px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 32px;
+}
+
+.words_text {
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
