@@ -36,6 +36,22 @@ body {
         color: #FFFFFF;
         padding-bottom: 32px;
     }
+    &_words {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        color: #FFFFFF;
+        padding-bottom: 32px;
+    }
+    &_puzzlewords {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        color: #FFFFFF;
+        padding-bottom: 32px;
+    }
 }
 
 .top_text {
@@ -103,6 +119,13 @@ body {
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-between;
+        padding-top: 235px;
+        padding-bottom: 235px;
+    }
+    &_menu {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
 }
 
@@ -137,7 +160,13 @@ body {
         gap: 135px;
         display: flex;
         flex-direction: row-reverse;
-        padding-top: 32px;
+        padding-top: 235px;
+        padding-bottom: 235px;
+    }
+    &_menu {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
 }
 
@@ -160,6 +189,57 @@ body {
     line-height: 22px;
     color: white;
     outline: none; 
+}
+
+.puzzlewords {
+    height: 800px;
+    background-image: url(imgs/bckrdpuzzlegame.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &_menu {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 285px;
+    }
+}
+
+.puzzlewords_text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-bottom: 32px;
+}
+
+.play_button__text {
+    background: #9C0332;
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 234px;
+    height: 48px;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    outline: none; 
+}
+
+.footer {
+    height: 80px;
+    background-image: url(imgs/bckrdbottom.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &_text { 
+        font-size: 12px;
+        line-height: 15px;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 32px;  
+    }
 }
 
 @import 'mobile';

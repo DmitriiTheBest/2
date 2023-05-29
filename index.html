@@ -35,7 +35,7 @@
                 <h2 class="title_seasons">Времена года</h2>
                 <p class="seasons_text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы <br> узнаете к какому времени года он относится</p>
                 <div class="play_button">
-                    <button class="play_button__text">Играть</button>
+                    <button class="play_button__text" onclick="console.log(calcTimeYear(monthNumber = Number(prompt('Введите номер месяца в году'))));">Играть</button>
                 </div>
             </div>
             <div class="seasons_gamepad">
@@ -57,5 +57,21 @@
             </div>
         </section>
     </div>
+    <div class="puzzlewords center">
+        <section class="puzzlewords_content">
+            <div class="puzzlewords_menu">
+                <h2 class="title_puzzlewords">Игра в загадки</h2>
+                <p class="puzzlewords_text">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</p>
+                <div class="play_button">
+                    <button class="play_button__text">Играть</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
 </body>
+    <footer class="footer center">
+        <p class="footer_text">Все права защищены</p>
+    </footer>
 </html>

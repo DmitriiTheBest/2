@@ -4,6 +4,30 @@
         padding-right: 16px;
     }
 
+    .top {
+        height: 550px;
+        padding-bottom: 238px;
+    }
+
+    .menu {
+        height: 600px;
+        padding-top: 250px;
+        padding-bottom: 120px;
+    }
+
+    .seasons {
+        height: 800px;
+    }
+
+    .words {
+        height: 700px;
+        padding-bottom: 100px;
+    }
+
+    .puzzlewords {
+        height: 800px;
+    }
+
     .title {
         font-style: normal;
         font-weight: 700;
@@ -13,6 +37,14 @@
         text-align: center;
         color: #FFFFFF;
         &_seasons {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            color: #FFFFFF;
+            padding-bottom: 32px;
+        }
+        &_words {
             font-style: normal;
             font-weight: 700;
             font-size: 32px;
@@ -68,6 +100,7 @@
         flex-wrap: nowrap;
         text-align: center;
         padding-top: 51px;
+        gap: 32px;
     }
     
     .seasons_menu {
@@ -101,6 +134,81 @@
     .video_game {
         width: 344px;
         height: 236px;
+    }
+
+    .words_content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: center;
+        padding-top: 51px;
+        gap: 32px;
+    }
+
+    // .words_menu {
+    //     margin-top: 51px; 
+    // }
+
+    .words_text {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+        color: #FFFFFF;
+        padding-bottom: 32px;
+    }
+
+    .play_button {
+        padding-bottom: 64px;
+        &_text {
+            background: #9C0332;
+            box-sizing: border-box;
+            border-radius: 30px;
+            width: 234px;
+            height: 48px;
+            font-size: 18px;
+            line-height: 22px;
+            color: white;
+            outline: none;
+        }
+    }
+
+    .videogame {
+        width: 344px;
+        height: 236px;
+    }
+
+    .puzzlewords_content {
+        // display: flex;
+        // flex-direction: column;
+        // flex-wrap: nowrap;
+        // text-align: center;
+        // padding-top: 52px;
+        // gap: 32px;
+    }
+
+    .puzzlewords_text {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+        color: #FFFFFF;
+        padding-bottom: 32px;
+    }
+
+    .play_button {
+        padding-bottom: 64px;
+        &_text {
+            background: #9C0332;
+            box-sizing: border-box;
+            border-radius: 30px;
+            width: 234px;
+            height: 48px;
+            font-size: 18px;
+            line-height: 22px;
+            color: white;
+            outline: none;
+        }
     }
 }
 
